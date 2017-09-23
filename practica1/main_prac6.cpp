@@ -80,6 +80,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Mercurio
 	glPushMatrix();
 		glColor3f(0.545, 0.251, 0.075);
+		glRotatef(45.0, 1.0, 0.0, 0.0);
 		glRotatef(mercurio, 0.0, 1.0, 0.0);
 		glTranslatef(3.5, 0.2, 0.2);
 		glRotatef(mercurio, 0.0, 1.0, 0.0);
@@ -88,6 +89,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Venus
 	glPushMatrix();
 		glColor3f(0.957, 0.643, 0.376);
+		glRotatef(45.0, 0.0, 1.0, 0.0);
 		glRotatef(venus, 0.0, 1.0, 0.0);
 		glTranslatef(5.0, 0.2, 0.2);
 		glRotatef(venus, 0.0, 1.0, 0.0);
@@ -96,6 +98,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Tierra
 	glPushMatrix();
 		glColor3f(0.0, 0.3, 0.8);
+		glRotatef(45.0, 0.0, 0.0, 1.0);
 		glRotatef(tierra, 0.0, 1.0, 0.0);
 		glTranslatef(7.0, 0.2, 0.2);
 		glPushMatrix();
@@ -112,6 +115,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Marte
 	glPushMatrix();
 		glColor3f(1.0, 0.0, 0.0);
+		glRotatef(-45.0, 1.0, 0.0, 0.0);
 		glRotatef(marte, 0.0, 1.0, 0.0);
 		glTranslatef(10, 0.2, 0.2);
 		glRotatef(venus, 0.0, 1.0, 0.0);
@@ -120,6 +124,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Júpiter
 	glPushMatrix();
 		glColor3f(1.0, 0.4, 0.4);
+		glRotatef(-45.0, 0.0, 1.0, 0.0);
 		glRotatef(jupiter, 0.0, 1.0, 0.0);
 		glTranslatef(15, 0.2, 0.2);
 		glPushMatrix();
@@ -144,6 +149,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Saturno
 	glPushMatrix();
 		glColor3f(1.0, 0.5, 0.25);
+		glRotatef(-45.0, 0.0, 0.0, 1.0);
 		glRotatef(saturno, 0.0, 1.0, 0.0);
 		glTranslatef(20, 0.2, 0.2);
 		glPushMatrix();
@@ -177,6 +183,8 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Urano
 	glPushMatrix();
 		glColor3f(0.0, 0.25, 0.6);
+		glRotatef(45.0, 1.0, 0.0, 0.0);
+		glRotatef(45.0, 0.0, 1.0, 0.0);
 		glRotatef(urano, 0.0, 1.0, 0.0);
 		glTranslatef(23, 0.2, 0.2);
 		glRotatef(urano, 0.0, 1.0, 0.0);
@@ -185,6 +193,8 @@ void display(void)   // Creamos la funcion donde se dibuja
 	//Neptuno
 	glPushMatrix();
 		glColor3f(0.0, 0.2, 0.4);
+		glRotatef(-45.0, 1.0, 0.0, 0.0);
+		glRotatef(-45.0, 0.0, 1.0, 0.0);
 		glRotatef(neptuno, 0.0, 1.0, 0.0);
 		glTranslatef(26, 0.2, 0.2);
 		glRotatef(neptuno, 0.0, 1.0, 0.0);
