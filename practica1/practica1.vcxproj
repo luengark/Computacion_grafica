@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main_prac6.cpp" />
+    <ClCompile Include="main_prac7.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6355F9C5-FFF9-4112-B8D8-2C0C0162B827}</ProjectGuid>
