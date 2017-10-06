@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main_prac7.cpp" />
+    <ClCompile Include="main_prac8_texto.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="texture.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6355F9C5-FFF9-4112-B8D8-2C0C0162B827}</ProjectGuid>
@@ -78,6 +82,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions); _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>lib</AdditionalLibraryDirectories>
