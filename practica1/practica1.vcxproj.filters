@@ -24,7 +24,7 @@
     <ClCompile Include="texture.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="main_prac10new.cpp">
+    <ClCompile Include="main_prac11.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>
